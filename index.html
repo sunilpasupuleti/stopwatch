@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Stopwatch</title>
+
+    <!-- jquery -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- jquery ui -->
+
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="styling.css">
+
+  <!-- google fonts -->
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap" rel="stylesheet">
+
+
+  </head>
+
+  <body>
+
+    <div class="container-fluid">
+
+      <div id="header">
+        Stopwatch
+
+      </div>
+
+      <div id="lap">
+
+
+        <span id="lapminute">00</span>:<span id="lapsecond">00</span>:<span id="lapcentisecond">00</span>
+
+
+      </div>
+
+      <div id="time">
+        <span id="timeminute">00</span>:<span id="timesecond">00</span>:<span id="timecentisecond">00</span>
+
+
+
+      </div>
+
+      <div id="controlscontainer" class="row">
+        <div class="col-xs-2 col-xs-offset-4">
+          <div class="control" id="startButton">
+              Start
+          </div>
+          <div class="control" id="stopButton">
+              Stop
+          </div>
+          <div class="control" id="resumeButton">
+              Resume
+          </div>
+
+        </div>
+
+        <div class="col-xs-2">
+
+          <div class="control" id="resetButton">
+              Reset
+          </div>
+          <div class="control" id="lapButton">
+              Lap
+          </div>
+
+        </div>
+
+
+      </div>
+
+
+      <div id="laps">
+
+      </div>
+
+    </div>
+
+    <script type="text/javascript" src="stopwatch.js">
+
+    </script>
+
+  </body>
